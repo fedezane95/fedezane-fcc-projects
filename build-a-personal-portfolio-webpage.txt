@@ -1,0 +1,191 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About me</a>
+        </li>
+        <li>
+          <a href="#projects">My work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="welcome-section">
+      <h1>Hi! I'm Federica</h1>
+      <h3>and these are my coding projects</h3>
+    </section>
+    <section id="projects">
+      <div class="project-tile">
+        <div class="gallery">
+      <h4>Project 1: Survey Form</h4>
+      <img src="https://i.ibb.co/HVYtXFF/survey-form.png">
+      </div></div>
+      <div class="project-tile">
+        <div class="gallery">
+      <h4>Project 2: Tribute Page</h4>
+      <img src="https://i.ibb.co/pRwpXzb/Tribute-page.png">
+      </div></div>
+      <div class="project-tile">
+        <div class="gallery">
+      <h4>Project 3: Recipe Page</h4>
+      <img src="https://i.ibb.co/gtTZ5S1/Recipe-page.png">
+      </div></div>
+    <div class="project-tile">
+      <div class="gallery"><h4>Project 4: Product Landing Page</h4>
+      <img src="https://i.ibb.co/MPK4QTg/Product-landing-page.png">
+      </div></div>
+      <p id="p-link"><a href="https://github.com/fedezane95/fedezane-fcc-projects">See more projects</a></p>
+    </section>
+    <section id="contact">
+      <h4>Let's stay in touch!</h4>
+      <p class="social-icons"><a href="https://www.linkedin.com/in/federica-zanetti-a7b346268" target="_blank"><i class="fab fa-linkedin-in"></i>LinkedIn</a>
+     <a href="https://github.com/fedezane95" target="_blank" id="profile-link"><i class="fab fa-github"></i>Github</a></p>
+    </section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+:root {
+  --c1: #C0DFA1;
+  --c2: #9FC490;
+  --c3: #82A3A1;
+  --c4: #465362;
+  --c5: #011936;
+}
+
+@media (max-width: 500px) {
+  overflow: hidden;
+}
+
+* {
+  border: 1px solid transparent;
+  font-family: Tahoma;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: var(--c1);
+  text-transform: uppercase;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  display: inline;
+  padding-left: 2vh;
+}
+
+li > a {
+  text-decoration: none;
+  color: var(--c4);
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--c5);
+}
+
+h1, h3 {
+  text-align: center;
+  color: white;
+}
+
+#projects {
+  background-color: var(--c3);
+}
+
+.project-tile {
+  padding: 10px;
+  float: left;
+  width: 24.99999%;
+  box-sizing: border-box;
+}
+
+
+img {
+  width: 100%;
+  height: 75vh;
+  object-fit: scale-down;
+}
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+h4 {
+  text-align: center;
+  color: var(--c5);
+}
+
+#p-link {
+  text-align: center;
+}
+
+#p-link a {
+  text-decoration: none;
+  color: var(--c1);
+  font-size: 1.5rem;
+}
+
+#contact {
+  background-color: var(--c2);
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact p {
+  text-align: center;
+}
+
+#contact a {
+  text-decoration: none;
+  color: var(--c4);
+}
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+** end of undefined **
+
