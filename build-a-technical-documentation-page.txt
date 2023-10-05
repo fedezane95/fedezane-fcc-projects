@@ -1,0 +1,130 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Technical Documentation Page</title>
+  </head>
+
+  <main id="main-doc">
+    <nav id="navbar">
+      <header id="title">My lasagna recipe</header>
+      <a class="nav-link" href="#introduction">Introduction</a>
+      <a class="nav-link" href="#ingredients">Ingredients</a>
+      <a class="nav-link" href="#steps">Steps</a>
+      <a class="nav-link" href="#baking">Baking</a>
+      <a class="nav-link" href="#enjoy">Enjoy</a>
+    </nav>
+    <section class="main-section" id="introduction">
+      <header>Introduction</header>
+      <p>Lasagna is a delicious Italian dish made from stacked pasta layers, ragù and bechamel.</p>
+      <p>Learn how to make it at home with this simple recipe!</p>
+    </section>
+    <section class="main-section" id="ingredients">
+      <header>Ingredients</header>
+      <p>To make lasagna you need:</p>
+      <ul>
+        <li><code>200g dry lasagna layers</code></li>
+        <li><code>300g ragù</code></li>
+        <li><code>500ml bechamel</code></li>
+        <li><code>100g parmesan</code></li>
+        <li><code>50g breadcrumbs</code></li>
+    </section>
+    <section class="main-section" id="steps">
+      <header>Steps</header>
+      <p>In a casserole put a thin layer of bechamel.</p>
+      <p>Then begin layering ingredients in this order: dry lasagna, ragù, parmesan, bechamel.</p>
+      <p>Make at least 3 layers.</p>
+      <p>Cover the last layer with all the cheese you have left and the breadcrumbs.</p>
+    </section>
+    <section class="main-section" id="baking">
+      <header>Baking</header>
+      <p>Bake your lasagna in the oven at 180°C for 40-45min.</p>
+      <p>Tip: if you like a crispy top, put your oven on grill the last 5/10min.</p>
+    </section>
+    <section class="main-section" id="enjoy">
+      <header>Enjoy</header>
+      <p>Let your lasagna sit for at least 15min before digging in! Bon appetit.</p>
+    </section>
+  </main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  font-family: calibri;
+  font-size: 1.2em;
+}
+
+#title {
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+nav {
+  position: fixed;
+  min-width: 200px;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 100%;
+  border-right: solid;
+  border-color: green;
+  background-color: #e6fff2;
+}
+
+main {
+  position: absolute;
+  margin-left: 200px;
+}
+
+nav > a {
+  display: flex;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin-left: 18px;
+}
+
+a:link {
+  color: #00cc63;
+}
+
+a:visited {
+  color: #00cc63;
+}
+
+nav > header {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+section > header {
+  color:  #00cc63;
+}
+
+p, ul {
+  margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    position: fixed;
+    width: 120px;
+    min-width: 100px;
+  }
+
+  main {
+   position: absolute;
+    margin-left: 120px;
+  }
+}
+
+** end of undefined **
+

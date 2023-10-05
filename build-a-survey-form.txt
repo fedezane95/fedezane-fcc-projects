@@ -1,0 +1,56 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">How was your trip?</p>
+    <form id="survey-form">
+      <label id="name-label">Enter your name: <input id="name" type="text" required placeholder="Name"/></label>
+      <label id="email-label">Enter your email: <input id="email" type="email" required placeholder="Email" /></label>
+      <label id="number-label">Enter your age: <input id="number" type="number" min="1" max="120" placeholder="1"></label>
+      <p>Enter your gender</p>
+    <label id="gender"><input type="radio" name="gender" value="male"/>Male</label>
+    <label id="gender"><input type="radio" name="gender" value="female"/>Female</label>
+    <label id="gender"><input type="radio" name="gender" value="male"/>Prefer not to say</label>
+    <p>Rate your trip</p>
+    <select id="dropdown">
+      <option>Great</option>
+      <option>Good</option>
+      <option>Terrible</option>
+      </select>
+    <p>How did you hear about us?</p>
+    <label id="ref"><input type="checkbox" value="1"> TV </label>
+    <label id="ref"><input type="checkbox" value="2"> Youtube</label>
+    <label id="ref"><input type="checkbox" value="3"> Podcast</label>
+    <p>Please leave us feedback:</p>
+      <label id="feedback"><textarea placeholder="Feedback"></textarea>
+    <button id="submit" type="submit">Submit</button>
+    </form>
+    
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: Tahoma;
+  background-color: rgb(252, 201, 201)
+}
+
+form {
+  padding: 20px;
+}
+
+label {
+  display: block;
+}
+
+** end of undefined **
+

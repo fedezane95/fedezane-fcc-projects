@@ -1,0 +1,186 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <link rel="stylesheet" href="./styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <body>
+    <header id="header">
+      <div id="logo">
+      <img id="header-img" src="https://www.freeiconspng.com/thumbs/cat-icon/cat-icon-25.png">
+      <h1>Custom Cat Trees</h1>
+      </div>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#video">Video</a>
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#price">Pricing</a>
+      </nav>
+    </header>
+    <section>
+      <iframe id="video" type="video" src="https://youtube.com/embed/eL3AO9XW7oo"></iframe>
+    </section>
+    <section>
+      <h2 id="features">Features</h2>
+      <ul>
+        <li>Fully customizable: add as many towers, beds and toys as you want</li>
+        <li>Perfect fit: we will build you a cat tree according to your exact room measurements</li>
+        <li>Comfort & Play: the perfect place for naps and playtime</li>
+      </ul>
+    </section>
+    <section id="grid">
+      <h2 id="price">Pricing</h2>
+      <div class="price">Basic Cat Tree
+        <h3>150€</h3>
+        <ol>
+          <li>Two towers</li>
+          <li>Three beds</li>
+          <li>One toy</li>
+        </ol>
+      </div>
+      <div class="price">Upgrade
+        <h3>250€</h3>
+        <ol>
+          <li>Three towers</li>
+          <li>Four beds</li>
+          <li>Three toys</li>
+        </ol>
+      </div>
+      <div class="price">Premium
+        <h3>500€</h3>
+        <ol>
+          <li>Four towers</li>
+          <li>Five beds</li>
+          <li>Five toys</li>
+        </ol>
+      </div>
+    </section>
+    <section id="end">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        Order your customised cat tree today!<input id="email" type="email" name="email" placeholder="Enter your e-mail address">
+        <input type="submit" id="submit" value="Get Started">
+      </form>
+    </section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+:root {
+  --c1: #9381FF;
+  --c2: #B8B8FF;
+  --c3: #F8F7FF;
+  --c4: #FFEEDD;
+  --c5: #FF9147;
+}
+
+* {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  place-items: center;
+  position: fixed;
+  top: 0px;
+  background-color:var(--c4);
+  width: 100vw;
+}
+
+@media (max-width: 500px) {
+  #header {
+    width: 50vw;
+  }
+}
+
+#header-img {
+  width: 5em;
+  height: 5em;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#nav-bar {
+  display: flex;
+  place-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--c5);
+  padding: 6px;
+}
+
+body {
+  position: absolute;
+  top: 150px;
+  background-color: var(--c3);
+}
+
+#video {
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  color: var(--c1);
+  padding-left: 15px;
+}
+
+#grid {
+  display: flex;
+}
+
+.price {
+  margin-top: 70px;
+  padding-left: 20px;
+  padding-right: 20px;  background-color: var(--c2);
+  border: 1px solid black;
+}
+
+h3 {
+  color: var(--c4)
+;}
+
+#grid div {
+  color: var(--c5);
+}
+
+li {
+  color: black;
+}
+
+#end {
+  margin-top: 50px;
+}
+
+form {
+    display: flex;
+  flex-direction: column;
+  color: var(--c5);
+  padding-left: 15px;
+}
+
+#email {
+  width: 50%;
+}
+
+#submit {
+  width: 20%;
+}
+
+** end of undefined **
+

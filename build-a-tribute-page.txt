@@ -1,0 +1,74 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+  </head>
+<main id="main">
+  <header>
+    <h1 id="title">Cats</h1>
+    <div id="img-div"><img id="image" src="https://i.pinimg.com/originals/58/db/b9/58dbb9f2a3e6739fd7e71fd9b961e4c0.jpg"></a>
+    <figcaption id="img-caption"><em>Cats come in all shapes and sizes!</em></figcaption>
+    </div>
+  </header>
+  <body>
+    <section id="fact">
+    <h2 id="tribute-info">Fun facts about cats:</h2>
+    <ul>
+      <li>A group of cats is called a “clowder.”</li>
+      <li>Cats make about 100 different sounds</li>
+      <li>A cat's top speed is approx. 49km/h</li>
+      <li>The biggest cat today is the Siberian Tiger</li>
+      <li>A cat can jump up to five times its own height</li>
+      </section>
+  </body>
+<footer>
+  <p><em>"In Ancient Times cats were worshipped as Gods: they have not forgotten this" - Terry Pratchett</em></p>
+  <p >Read more about cats on <a id="tribute-link"target="_blank" href="https://it.wikipedia.org/wiki/Cats">Wikipedia</a></main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  background-color: #B2EBF2;
+  font-family: helvetica;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#image {
+  max-width: 100%;
+  margin: auto;
+  padding: auto;
+  display: block;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+section {
+  background-color: #4dd0e1;
+  padding: 20px;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+figcaption {
+  margin-bottom: 20px;
+}
+
+** end of undefined **
+
